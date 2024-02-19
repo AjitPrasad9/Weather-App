@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cursor-dot"data-cursor-dot></div>
+    <div class="cursor-outline"data-cursor-outline></div>
+
+    <div class="weather">
+        <div class="box"  style="background-image:url('https://source.unsplash.com/random/?veg')" ></div>
+        <div class="left-part hbr">
+            <div class="search ">
+                <input type="text" id="cityName" class="br" placeholder="Search City"/> 
+                <button class="searchButton br"><img src="weather-app-img/images/search.svg" alt=""/></button>
+            </div>
+            <div class="temperature">
+                <img src="weather-app-img/images/clear.png" alt="" class="weatherImage" width="200px" height="auto"/>
+                <h1 class="temp">12°C</h1>
+                <h3 class="day">Mon Feb 16 2024</h3>
+                <h3 class="text">Mostly Cloudy</h3>
+            </div>
+            <hr>
+            <div class="foot">
+                <img src="weather-app-img/images/location1.png" alt="" width="40px" height="40">
+                <h1 class="city">Kolkata</h1>
+            </div>
+        </div>
+        <div class="right-part br">
+            <div id="right-top">
+                <h3 class="days-head">Week</h3>
+                <button class="mode">Dark Mode</button>
+            </div>
+            <div class="days">
+                <div>
+                    <h4 class="day1">Sun</h4>
+                    <img src="weather-app-img/images/clouds.png" alt="" width="50px" height="50px"  class="icon1"/>
+                    <h4 class="t1">17°C/23°C</h4>
+                </div>
+                <div>
+                    <h4 class="day2">Mon</h4>
+                    <img src="weather-app-img/images/clouds.png" alt="" width="50px" height="50px"  class="icon2"/>
+                    <h4 class="t2">17°C/23°C</h4>
+                </div>
+                <div>
+                    <h4 class="day3">Tue</h4>
+                    <img src="weather-app-img/images/clouds.png" alt="" width="50px" height="50px"  class="icon3"/>
+                    <h4 class="t3">17°C/23°C</h4>
+                </div>
+                <div>
+                    <h4 class="day4">Wed</h4>
+                    <img src="weather-app-img/images/clouds.png" alt="" width="50px" height="50px"  class="icon4"/>
+                    <h4 class="t4">17°C/23°C</h4>
+                </div>
+                <div>
+                    <h4 class="day5">Thu</h4>
+                    <img src="weather-app-img/images/clouds.png" alt="" width="50px" height="50px"  class="icon5"/>
+                    <h4 class="t5">17°C/23°C</h4>
+                </div>
+                <div>
+                    <h4 class="day6">Fri</h4>
+                    <img src="weather-app-img/images/clouds.png" alt="" width="50px" height="50px"  class="icon6"/>
+                    <h4 class="t6">17°C/23°C</h4>
+                </div>
+                <div>
+                    <h4 class="day7">Sat</h4>
+                    <img src="weather-app-img/images/clouds.png" alt="" width="50px" height="50px"  class="icon7"/>
+                    <h4 class="t7">17°C/23°C</h4>
+                </div>
+            </div>
+            <h3 class="highlights-head">Today's Highlights</h3>
+            <div class="highlights">
+                <div>
+                    pressure
+                    <h1 class="pressure">1017.3</h1>
+                    <h4>millibars</h4>
+                </div>
+                <div>
+                    Wind Speed
+                    <h1 class="wind-speed">1</h1>
+                    <h4>miles/h</h4>
+                </div>
+                <div>
+                    Sunrise & Sunset
+                    <div id="sunrise">
+                        <img src="weather-app-img/images/sunrise.png" alt="" width="40px" height="auto">
+                        <h1 class="sunrise">6:45 A.M</h1>
+                    </div>
+                    <div id="sunset">
+                        <img src="weather-app-img/images/sunset.png" alt="" width="40px" height="auto">
+                        <h1 class="sunset">5:35 P.M</h1>
+                    </div>
+                </div>
+                <div>
+                    Humidity
+                    <h1 class="humidity">20%</h1>
+                    <img src="weather-app-img/images/humidity.png" alt="" width="40px" height="auto">
+                    
+                </div>
+                <div>
+                    Visibility
+                    <h1 class="visibility">0.98</h1>
+                    <h4>miles</h4>
+                </div>
+                <div>
+                    Wind Direction
+                    <h1 class="direction ">NNE</h1>
+                    <img src="weather-app-img/images/wind-direction.jpg" alt="" width="50px"  height="auto"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
